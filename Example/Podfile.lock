@@ -1,0 +1,16 @@
+PODS:
+  - ZQCategoryKit (1)
+
+DEPENDENCIES:
+  - ZQCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZQCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZQCategoryKit: e1b3198dcb4b9582e37141970af6feb66288660f
+
+PODFILE CHECKSUM: c030200f238a24fa3e6c80ecd72d6b38686f107c
+
+COCOAPODS: 1.5.0

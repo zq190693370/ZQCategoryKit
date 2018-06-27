@@ -1,0 +1,22 @@
+{
+  "name": "ZQCategoryKit",
+  "version": "1",
+  "summary": "A short description of ZQCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZQ/ZQCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZQ": "zhangqun@ltffuture.com"
+  },
+  "source": {
+    "git": "https://github.com/ZQ/ZQCategoryKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZQCategoryKit/Classes/**/*"
+}
