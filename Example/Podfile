@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZQCategoryKit_Example' do
+  pod 'ZQCategoryKit', :path => '../'
+
+  target 'ZQCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
