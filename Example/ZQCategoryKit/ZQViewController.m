@@ -10,6 +10,8 @@
 
 @interface ZQViewController ()
 
+@property (nonatomic, copy) NSString *str;
+
 @end
 
 @implementation ZQViewController
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
