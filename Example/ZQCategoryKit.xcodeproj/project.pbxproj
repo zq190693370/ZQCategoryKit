@@ -25,6 +25,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A407209021F30782009E0B6F /* ZExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = A407208F21F30782009E0B6F /* ZExtention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96893FC0120A21B8DABC1C1D /* Pods_ZQCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A407208E21F30782009E0B6F /* ZExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZExtention.h; sourceTree = "<group>"; };
+		A407208F21F30782009E0B6F /* ZExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZExtention.m; sourceTree = "<group>"; };
 		AD48C5B51C37C5A40CB9DAFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BA33AA6CEEF024AA1436AE90 /* Pods-ZQCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZQCategoryKit_Tests/Pods-ZQCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C30EE7823331D2E5C86319FC /* Pods-ZQCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQCategoryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZQCategoryKit_Example/Pods-ZQCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				6003F5A6195388D20070C39A /* ZQViewController.m */,
 				5DA2BF1621F3053E001B3DE1 /* ZAgent.h */,
 				5DA2BF1721F3053E001B3DE1 /* ZAgent.m */,
+				A407208E21F30782009E0B6F /* ZExtention.h */,
+				A407208F21F30782009E0B6F /* ZExtention.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -365,6 +370,7 @@
 			files = (
 				5DA2BF1821F3053E001B3DE1 /* ZAgent.m in Sources */,
 				6003F59E195388D20070C39A /* ZQAppDelegate.m in Sources */,
+				A407209021F30782009E0B6F /* ZExtention.m in Sources */,
 				6003F5A7195388D20070C39A /* ZQViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
